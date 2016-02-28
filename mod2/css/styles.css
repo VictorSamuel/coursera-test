@@ -1,0 +1,73 @@
+* {
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+h1 {
+	text-align: center;
+	margin-top:3%;
+	margin-bottom:4%;
+}
+
+.secao {
+	background-color:lightGray;
+	float: left;
+	border: solid 1px black;
+	padding: 10px;
+	margin-right: 0.5%;
+	margin-left:0.5%;
+	margin-bottom:1%;
+	position:relative;
+}
+
+.titulo {
+	position:absolute;
+	top:0;
+	right:0;
+	border: solid 1px black;
+	padding:6px;
+	border-right:0px;
+	border-top:0px;
+}
+
+p {
+	clear:right;
+	margin-top:25px;
+}
+
+#tituloUm {
+	background-color:deepSkyBlue;
+}
+
+#tituloDois {
+	background-color:Red;
+}
+#tituloTres {
+	background-color:#FF77AA;
+}
+
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+
+  .col-lg-4 {
+    width: 32.3%;
+  }
+ 
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6 {
+    width: 49%;
+  }
+  .col-md-12 {
+    width: 99%;
+  }
+}
+
+/********** Small devices only **********/
+@media (max-width: 767px) {
+  .col-sm-12 {
+    width: 99%;
+  }
+}
